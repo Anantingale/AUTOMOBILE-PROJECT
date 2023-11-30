@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  
+    <nav class="navbox">
+        <div class="navdiv">
+            <div class="logo"><a href="#">LOGO</a></div>
+            <ul>
+              <i class="fa-solid fa-house" style="color: #e9ecf2;"></i>
+                <li><a href=""> Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Services</a></li>
+                <!-- <input type="button" value="Sign in/Register"> -->
+                <li>
+                  <button>Sign in/Register</button>
+                </li>
+                <!-- <li><a href="">Login</a></li> -->
+            </ul>
+        </div>
+    </nav>
+    <div class="container"> 
+<div class="slide_box">
+
+    <div class="slider">
+      <div class="slide active">
+         <img src="image-slider/creta.jpeg" alt="Image 1">
+      </div>
+      <div class="slide">
+         <img src="image-slider/harrier.jpeg" alt="Image 2">
+      </div>
+      <div class="slide">
+         <img src="image-slider/thar.jpg" alt="Image 3">
+      </div>
+      <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+      <a class="next" onclick="changeSlide(1)">&#10095;</a>
+     </div>
+</div>
+<div class="service">
+<span class="heading"><h2>Services We Provide</h2></span>
+</div>
+
+<section class="section_one">
+  
+  <div id="box1">
+    <h2>Regular Maintenance</h2>
+  <p><h3>Keep your car in top condition with our comprehensive regular maintenance services. Our skilled technicians will perform routine checks, oil changes, and more.</h3></p>
+  </div>
+  <div id="box2">
+    <h2>Repairs & Diagnostics</h2>
+    <p><h3>If your car needs repairs or diagnostic checks, we have the expertise and equipment to identify and fix any issues efficiently, getting you back on the road in no time.</h3>
+
+    </p>
+  </div>
+  <div id="box3">
+    <h2>Tire Services</h2>
+    <p><h3>From tire rotations to replacements, we offer a range of tire services to ensure optimal grip and safety on the road.</h3></p>
+  </div>
+</section>
+
+<div class="car_info">
+      <div class="car1">
+        <img src="image-slider/creta.jpeg" alt="creta">
+        <br>
+        <label>Rs.11,96,100-Rs.14,89,306</label>
+      </div>
+      <div class="car2">
+        <img src="image-slider/harrier.jpeg" alt="">
+        <br>
+        <label for="">₹1,519,900 - ₹2,426,900</label>
+      </div>
+      <div class="car3">
+        <img src="image-slider/thar.jpg" alt="">
+        <br>
+        <label for="">₹10.98 Lakh - ₹ 16.94 Lakh </label>
+      </div>
+</div>
+
+<div class="input-container">
+  <div class="early-access">
+    <h2>Contact Us</h2>
+    <p>It only takes a minute to sign up and our team is extremely generous. If you have any <br>
+      questions, our support team would be happy to help you.</p>
+    <button type="submit" class="btn-secondary">Get Started </button>
+    <input placeholder="email@example.com" type="email" id="input-1"/>
+  </div>
+</div>
+
+  </div>  
+  <footer class="footer">
+    <div class="footer-container">
+      <img class="footer-logo" src='images/logo.svg' alt="logo">
+      <div class="footer-row">
+        <div class="footer-col">
+          <h4><span><img class="icon" src="images/icon-location.svg" alt="location-icon"></span>Our Location</h4>
+        </div>
+        <div class="footer-col">
+          <ul>
+            <li><a href="#"><span><img class="icon" src="images/icon-phone.svg" alt="phone-icon"></span>+91 xxxxxxxxxx </a></li>
+            <li><a href="#"><span><img class="icon" src="images/icon-email.svg" alt="email-icon">example@gmail.com</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <ul class="footer-list">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Jobs</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <ul class="footer-list">
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <div class="links">
+            <a href="#"><i class="fab fa-facebook-f"></i><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="#"><i class="fab fa-twitter"></i><ion-icon name="logo-twitter"></ion-icon></a>
+            <a href="#"><i class="fab fa-instagram"></i><ion-icon name="logo-instagram"></ion-icon></a>
+          </div>
+        </div>
+      </div>
+    </div>
+ </footer> 
+</body>
+</html>
